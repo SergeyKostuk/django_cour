@@ -4,7 +4,7 @@ from cw19.views import record
 
 urlpatterns = [
 
-    path('record/', record),
+    path('record/', record, name='record_line'),
 
 
 ]

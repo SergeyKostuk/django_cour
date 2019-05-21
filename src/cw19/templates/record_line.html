@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 {% block content %}
-<form action="http://127.0.0.1:8000/cw19/record/" method="POST">
+<form action="{% url "record_line" %}" method="POST">
 
     <p>
         Firstname
