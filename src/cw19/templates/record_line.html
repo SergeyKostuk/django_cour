@@ -1,10 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>add line </title>
-</head>
-<body>
+{% extends 'base.html' %}
+{% block content %}
 <form action="http://127.0.0.1:8000/cw19/record/" method="POST">
 
     <p>
@@ -25,5 +20,4 @@
     </p>
     <br><input type="submit" name="submit", value="accept">
 </form>
-</body>
-</html>
+{% endblock %}
