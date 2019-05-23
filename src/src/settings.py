@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'myapp',
     'myapp2',
-    'cw19'
+    'cw19',
+    'cw20',
 ]
 
 MIDDLEWARE = [
@@ -58,7 +59,9 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': ['template',
-                 'cw19.templates'],
+                 'cw19.templates',
+                 'cw20.templates',
+                 ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
